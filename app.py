@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import matplotlib
 import matplotlib.pyplot as plt
 import os
 
@@ -188,5 +189,6 @@ st.download_button(
 # -----------------------------
 st.markdown("---")
 st.markdown("🎓 **Student Performance Analysis Project** | Built with ❤️ using **Streamlit & Data Science**")
+
 
 
